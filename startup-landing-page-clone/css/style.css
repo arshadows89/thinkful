@@ -50,3 +50,24 @@ table {
 div {
 	border: 1px solid Chocolate;
 }
+
+.header .header-list li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.header .header-list .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.header .header-list li:hover {
+	color: #333333;
+	cursor: pointer;
+}
+.header .header-list {
+	float: right;
+	font-family: "Roboto", sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
