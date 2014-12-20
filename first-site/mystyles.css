@@ -1,0 +1,20 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+
+body {
+	background-color: gray;
+}
+
+p1 {
+	font-size: 20px;
+}
+
+ul.p1 {
+	list-style-type:  circle;
+}
+
+link {
+	font_size: 35px;
+}
