@@ -74,6 +74,9 @@ div {
 .header {
 	padding-right: 6em;
 	padding-left: 6em;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .background-image {
   background-image: url("images/karma-background.jpg")
@@ -115,12 +118,33 @@ div {
 	cursor: pointer;
 }
 .body{
-	float: left;
-	width: 33.33333%;
+	display: block;
+	padding-bottom: 5rem;
+	margin-top: 7.875rem;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	height: 4em;
+	border: 1px solid black;
 }
 .image-list > li{
 	display: inline-block;
+	width: 33.33333%;
+	text-align: center;
+	float: left;
 }
 .slogan-list > li {
 	display: inline-block;
+	text-align: center;
+	width: 33.3333%;
+	float: left;
+	color: #1d1e21;
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+.body > .p1 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	text-align: center;
 }
