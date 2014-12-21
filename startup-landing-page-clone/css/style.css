@@ -53,7 +53,7 @@ div {
 
 .header .header-list li {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 1.563rem;
 }
 .header .header-list .active {
 	color: #4c5058;
@@ -68,6 +68,48 @@ div {
 	font-family: "Roboto", sans-serif;
 	color: #838994;
 	font-size: 16px;
-	margin-top: 25px;
+	margin-top: 1.7rem;
 	-webkit-font-smoothing: antialiased;
+}
+.header {
+	padding-right: 6em;
+	padding-left: 6em;
+}
+.background-image {
+  background-image: url('../images/karma-background.jpg')
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+  background-position: center bottom;
+}
+.background-image .p1 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.background-image .p2 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.background-image .p3 {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	line-height: 1.33;
+}
+
+.background-image .pw:hover {
+	border-color: #CC4A14: 
+	background-color: #CC4A14;
+	cursor: pointer;
 }
