@@ -106,9 +106,10 @@ div {
 	color: white;
 	font-size: 1.125rem;
 	line-height: 1.33;
+	margin: auto;
 }
 
-.background-image .pw:hover {
+.background-image .p3:hover {
 	border-color: #CC4A14: 
 	background-color: #CC4A14;
 	cursor: pointer;
