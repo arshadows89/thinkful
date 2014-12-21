@@ -76,7 +76,7 @@ div {
 	padding-left: 6em;
 }
 .background-image {
-  background-image: url('../images/karma-background.jpg')
+  background-image: url("images/karma-background.jpg")
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
@@ -113,4 +113,14 @@ div {
 	border-color: #CC4A14: 
 	background-color: #CC4A14;
 	cursor: pointer;
+}
+.body{
+	float: left;
+	width: 33.33333%;
+}
+.image-list > li{
+	display: inline-block;
+}
+.slogan-list > li {
+	display: inline-block;
 }
