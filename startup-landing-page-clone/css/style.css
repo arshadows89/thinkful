@@ -70,21 +70,32 @@ div {
 	font-size: 16px;
 	margin-top: 1.7rem;
 	-webkit-font-smoothing: antialiased;
+	padding-right: 10rem;
 }
 .header {
-	padding-right: 6em;
-	padding-left: 6em;
+	padding-top: 1.2rem;
+	padding-left: 6rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	height: 4.375rem;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	display: block;
+	border-bottom: 1px solid #DDD;
 }
 .background-image {
-  background-image: url("images/karma-background.jpg")
+  background-image: url(../images/karma-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
   overflow: auto;
-  background-position: center bottom;
+  background-position: 0 4.375rem;
+}
+.background-image > .p1,
+.background-image > .p2,
+.background-image > .wrapper {
+	padding-top: 1.2rem;
 }
 .background-image .p1 {
 	color: white;
@@ -98,6 +109,9 @@ div {
 	text-align: center;
 	font-weight: 300;
 }
+.wrapper {
+	text-align: center;
+}
 .background-image .p3 {
 	width: 9.688rem;
 	background-color: #f15a29;
@@ -109,7 +123,6 @@ div {
 	color: white;
 	font-size: 1.125rem;
 	line-height: 1.33;
-	text-align: center;
 }
 
 .background-image .p3:hover {
