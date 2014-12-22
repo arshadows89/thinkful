@@ -131,13 +131,7 @@ div {
 	cursor: pointer;
 }
 .body{
-	display: block;
 	padding-bottom: 5rem;
-	margin-top: 7.875rem;
-	vertical-align: baseline;
-	box-sizing: border-box;
-	height: 4em;
-	border: 1px solid black;
 }
 .image-list > li{
 	display: inline-block;
@@ -160,4 +154,42 @@ div {
 	margin: 1.625rem 0 3.125rem;
 	font-weight: 300;
 	text-align: center;
+}
+.footer {
+	text-align: center;
+	padding-bottom: 9.375rem;
+}
+.footer > .footer-div {
+	padding: 0 0.938;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+.footer > .line {
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.footer > .p2 {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+	padding-bottom: 2rem;
+}
+.footer > .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+.footer > .facebook {
+	color: #4c66a4;
+}
+.footer > .twitter {
+	color: #55acee;
+}
+.footer > .instagram {
+	color: #3f729b;
 }
