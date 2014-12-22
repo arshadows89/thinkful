@@ -83,6 +83,7 @@ div {
 	z-index: 9999;
 	display: block;
 	border-bottom: 1px solid #DDD;
+	background-color: white;
 }
 .background-image {
   background-image: url(../images/karma-background.jpg);
