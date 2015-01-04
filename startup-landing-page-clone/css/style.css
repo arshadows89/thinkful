@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: LightGray;
 }
 ol, ul {
 	list-style: none;
@@ -46,9 +45,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-div {
-	border: 1px solid Chocolate;
 }
 
 .header .header-list li {
@@ -133,6 +129,7 @@ div {
 }
 .body{
 	padding-bottom: 5rem;
+	padding-top: 5em;
 	height: 20rem;
 }
 .image-list > li{
@@ -159,17 +156,19 @@ div {
 }
 .footer {
 	text-align: center;
-	padding-bottom: 9.375rem;
+	padding-bottom: 2.375rem;
 }
 .footer > .footer-div {
 	padding: 0 0.938;
 	margin: 0 auto;
 	min-width: 37.5rem;
 }
-footer > hr {
-	border-top: 1px solid #eaebec;
-	margin: 1.313rem 0;
-	padding: 2rem 2rem;
+hr {
+	border-top: 1px solid black;
+	margin: 1.313rem 15rem;
+}
+.footer > ul {
+	float: left;
 }
 .footer > .p2 {
 	font-size: .9rem;
@@ -177,22 +176,25 @@ footer > hr {
 	color: #838994;
 	padding-bottom: 2rem;
 }
-.footer > .icons > li {
+.footer > .icons {
+	float: left;
+}
+.footer .icons > li {
 	border-radius: 1.25rem;
 	width: 2.5rem;
-	height: 2.5rem;
+	height: 1rem;
 	display: inline-block;
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
 }
-.footer > .facebook {
+.footer .facebook > {
 	color: #4c66a4;
 }
-.footer > .twitter {
+.footer .twitter {
 	color: #55acee;
 }
-.footer > .instagram {
+.footer .instagram {
 	color: #3f729b;
 }
