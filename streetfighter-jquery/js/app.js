@@ -1,10 +1,19 @@
-Ja
+  $(document).keydown(function(event){
+    if(event.which == 88)
+    $('.ryu-still').hide();
+    $('.ryu-ready').hide();
+    $('.ryu-cool').show();
+  })
+    $(document).keyup(function(event){
+    if(event.which == 88)
+    $('.ryu-still').hide();
+    $('.ryu-ready').hide();
+    $('.ryu-cool').hide();
+  })
+$(document).ready(function() {
   $('.ryu').mouseenter(function() {
     $('.ryu-still').hide();
     $('.ryu-ready').show();
-  })
-  $('.ryu-still').keydown(function(){
-  	alert( "Handler for .keydown() called." );
   })
   .mouseleave(function() {
     $('.ryu-ready').hide();
